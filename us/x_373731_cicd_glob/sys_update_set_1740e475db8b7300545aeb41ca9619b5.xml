@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-08-04 06:46:55">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="CICD Global Test App">510a8bbbdba23300545aeb41ca9619e5</application>
+<application_name>CICD Global Test App</application_name>
+<application_scope>x_373731_cicd_glob</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by CICD Process</description>
+<inserted/>
+<name>CICD Global Test App – 1.0.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1740e475db8b7300545aeb41ca9619b5</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-08-04 06:46:55</sys_created_on>
+<sys_id>de706831dbcb7300545aeb41ca961967</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-08-04 06:46:55</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Global Test App">510a8bbbdba23300545aeb41ca9619e5</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_c2202471dbcb7300545aeb41ca9619a6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_373731_cicd_glob.sampleScript&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;sampleScript&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Class Description
+ * 
+ * @class 
+ * @author System Administrator [admin]
+ * @memberof x_373731_cicd_glob.module:sys_script_include
+ */
+var sampleScript = Class.create();
+sampleScript.prototype = /** @lends x_373731_cicd_glob.module:sys_script_include.sampleScript.prototype */ {
+    /**
+     * Description
+     * 
+     * @returns {undefined}
+     */
+    initialize: function() {
+		return true;
+    },
+
+    type: 'sampleScript'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-04 06:45:47&lt;/sys_created_on&gt;&lt;sys_id&gt;c2202471dbcb7300545aeb41ca9619a6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;sampleScript&lt;/sys_name&gt;&lt;sys_package display_value="CICD Global Test App" source="x_373731_cicd_glob"&gt;510a8bbbdba23300545aeb41ca9619e5&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="CICD Global Test App"&gt;510a8bbbdba23300545aeb41ca9619e5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c2202471dbcb7300545aeb41ca9619a6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-08-04 06:46:00&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-627752419</payload_hash>
+<remote_update_set display_value="CICD Global Test App – 1.0.0">de706831dbcb7300545aeb41ca961967</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-08-04 06:46:55</sys_created_on>
+<sys_id>1a706831dbcb7300545aeb41ca961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16c5b60daaa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-08-04 06:46:55</sys_updated_on>
+<table/>
+<target_name>sampleScript</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>d340e475b58b7300c9e78fb5a39446ba</update_guid>
+<update_guid_history>d340e475b58b7300c9e78fb5a39446ba:-627752419,4d406471ebcb7300e33f6d92072bffab:-627752419,71306471decb7300126bae8579535149:-689162881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Global Test App">510a8bbbdba23300545aeb41ca9619e5</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_959e4b94db323300545aeb41ca96196a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_app&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sys_app"&gt;sys_updated_onISNOTEMPTY^EQ&lt;item endquery="false" field="sys_updated_on" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;BR-updatedTest&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-07-18 17:23:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;959e4b94db323300545aeb41ca96196a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;BR-updatedTest&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CICD Global Test App" source="x_373731_cicd_glob"&gt;510a8bbbdba23300545aeb41ca9619e5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CICD Global Test App"&gt;510a8bbbdba23300545aeb41ca9619e5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_959e4b94db323300545aeb41ca96196a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-07-18 17:23:37&lt;/sys_updated_on&gt;&lt;template&gt;sys_updated_by=admin^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=959e4b94db323300545aeb41ca96196a"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-118972909</payload_hash>
+<remote_update_set display_value="CICD Global Test App – 1.0.0">de706831dbcb7300545aeb41ca961967</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-08-04 06:46:55</sys_created_on>
+<sys_id>56706831dbcb7300545aeb41ca961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16c5b60da990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-08-04 06:46:55</sys_updated_on>
+<table>sys_app</table>
+<target_name>BR-updatedTest</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5f40e4751d8b7300037887709dc298b8</update_guid>
+<update_guid_history>5f40e4751d8b7300037887709dc298b8:-118972909,db2f8f94893233001c5a79ea0a1e0904:-118972909,111f8f103c323300078c7511d6fc8be8:-1360044095</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Global Test App">510a8bbbdba23300545aeb41ca9619e5</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_510a8bbbdba23300545aeb41ca9619e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_model>none</license_model><logo/><menu/><name>CICD Global Test App</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_373731_cicd_glob</scope><scoped_administration>false</scoped_administration><short_description/><source>x_373731_cicd_glob</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-17 03:44:08</sys_created_on><sys_id>510a8bbbdba23300545aeb41ca9619e5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-07-17 03:44:08</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-1166406534</payload_hash>
+<remote_update_set display_value="CICD Global Test App – 1.0.0">de706831dbcb7300545aeb41ca961967</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-08-04 06:46:55</sys_created_on>
+<sys_id>92706831dbcb7300545aeb41ca961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16c5b60da850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-08-04 06:46:55</sys_updated_on>
+<table/>
+<target_name>CICD Global Test App</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>d340e4753d8b7300be56016e6e7eafb7</update_guid>
+<update_guid_history>d340e4753d8b7300be56016e6e7eafb7:-1166406534,110acf7f1da233004f41a13769251b89:-1166406534</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

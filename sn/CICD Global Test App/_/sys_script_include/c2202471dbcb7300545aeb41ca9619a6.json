@@ -1,0 +1,23 @@
+{
+  "access": "package_private",
+  "active": true,
+  "api_name": "x_373731_cicd_glob.sampleScript",
+  "client_callable": false,
+  "description": null,
+  "name": "sampleScript",
+  "script": {
+    "____see": "sn\\CICD Global Test App\\Script Include\\active_true\\x_373731_cicd_glob.sampleScript.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-08-04 06:45:47",
+  "sys_id": "c2202471dbcb7300545aeb41ca9619a6",
+  "sys_mod_count": 1,
+  "sys_name": "sampleScript",
+  "sys_package": "510a8bbbdba23300545aeb41ca9619e5",
+  "sys_policy": "read",
+  "sys_scope": "510a8bbbdba23300545aeb41ca9619e5",
+  "sys_update_name": "sys_script_include_c2202471dbcb7300545aeb41ca9619a6",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-08-04 06:46:00"
+}
